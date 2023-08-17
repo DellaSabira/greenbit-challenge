@@ -1,0 +1,75 @@
+ @import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
+*{
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+.parent{
+    border-radius: 4px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: inset;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+h1{
+    color:  hsl(179, 62%, 43%);font-family: 'karla',;
+}
+.first-child p{
+    color: hsl(218, 22%, 67%);
+    font-weight: 400;font-family: 'karla',;
+}
+.first-child h2{
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+}
+.first-child h1{
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+}
+.first-child{
+    background-color: white;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 30px;
+
+}
+.second-child{
+    background-color: hsl(179, 62%, 43%);
+    padding: 30px;
+    
+}
+.second-child h2{
+    color: white;
+}
+.second-child span{
+    color: white;
+    font-weight: 1000;
+}
+.second-child p{
+    color: hsl(206, 26%, 95%);
+}
+button{
+    font-weight: 700px;
+    font-style: bold;
+    border: none;
+    background-color: hsl(71, 73%, 54%);
+    color:white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 200px;
+    height: 35px;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.third-child{
+    background-color: hsl(179, 62%, 67%);
+    padding: 30px;
+    
+}
+.third-child h2{
+    color: white;
+}
+.third-child p{
+    color: hsl(204, 43%, 93%);
+}
