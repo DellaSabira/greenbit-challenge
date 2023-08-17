@@ -1,1 +1,1 @@
-# greenbit-chalenge
+# greenbit-challenge
